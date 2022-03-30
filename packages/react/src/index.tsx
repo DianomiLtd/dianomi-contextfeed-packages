@@ -5,7 +5,7 @@ type Props = {
   id: String | Number;
 };
 
-export const DianomiContextFeedReact = ({ id }: Props) => {
+export const DianomiContextFeed = ({ id }: Props) => {
   React.useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://www.dianomi.com/js/contextfeed.js';

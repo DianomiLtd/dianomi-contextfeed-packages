@@ -1,7 +1,7 @@
 {
-  "name": "@dianomi-contextfeed/root",
+  "name": "@dianomi/root",
   "version": "0.0.1",
-  "description": "monorepo of dianomi-contextfeed/packages",
+  "description": "monorepo of @dianomi/packages",
   "private": true,
   "main": "index.js",
   "scripts": {
