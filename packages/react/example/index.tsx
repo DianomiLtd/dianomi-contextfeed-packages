@@ -1,10 +1,10 @@
 // import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { DianomiContextFeedReact } from '../.';
+import { DianomiContextFeed } from '../.';
 
 const App = () => {
-  return <DianomiContextFeedReact id={1} />;
+  return <DianomiContextFeed id={1} />;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
