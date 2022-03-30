@@ -5,11 +5,16 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "manypkg check",
+    "manypkg:fix": "manypkg fix"
   },
   "author": "",
   "license": "ISC",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@manypkg/cli": "^0.19.1"
+  }
 }
