@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.2",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/dianomi-react-contextfeed.cjs.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -33,16 +33,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react",
+  "name": "@dianomi/react-contextfeed",
   "author": "Dianomi",
-  "module": "dist/react.esm.js",
+  "module": "dist/dianomi-react-contextfeed.esm.js",
   "size-limit": [
     {
-      "path": "dist/react.cjs.production.min.js",
+      "path": "dist/react-contextfeed.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/react.esm.js",
+      "path": "dist/react-contextfeed.esm.js",
       "limit": "10 KB"
     }
   ],
@@ -57,5 +57,17 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "tiny-invariant": "^1.2.0"
+  },
+  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DianomiLtd/dianomi-contextfeed-packages/packages/react-contextfeed.git"
   }
 }
