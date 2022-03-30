@@ -4,7 +4,7 @@ import * as ReactDOM from 'react-dom';
 import { DianomiContextFeedReact } from '../.';
 
 const App = () => {
-  return <DianomiContextFeedReact id={712} />;
+  return <DianomiContextFeedReact id={1} />;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
