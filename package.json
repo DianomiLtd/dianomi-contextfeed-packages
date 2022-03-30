@@ -6,15 +6,27 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "manypkg check",
-    "manypkg:fix": "manypkg fix"
+    "postinstall": "manypkg check && preconstruct dev",
+    "manypkg:fix": "manypkg fix",
+    "build": "preconstruct build"
   },
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "packages/*"
+    "packages/react-contextfeed"
   ],
   "dependencies": {
-    "@manypkg/cli": "^0.19.1"
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@changesets/cli": "^2.22.0",
+    "@manypkg/cli": "^0.19.1",
+    "@preconstruct/cli": "^2.1.5"
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/react-contextfeed"
+    ]
   }
 }
