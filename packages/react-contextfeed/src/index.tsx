@@ -2,7 +2,7 @@ import * as React from 'react';
 import invariant from 'tiny-invariant';
 
 type Props = {
-  id: String | Number;
+  id: Number;
 };
 
 export const DianomiContextFeed = ({ id }: Props) => {
