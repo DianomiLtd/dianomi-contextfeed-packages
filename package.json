@@ -11,6 +11,7 @@
     "build": "preconstruct build",
     "changeset:add": "changeset add",
     "changeset:version": "changeset version",
+    "predeploy": "npm run build && npm run changeset add && npm run changeset:version",
     "deploy": "preconstruct build && changeset publish"
   },
   "author": "",
