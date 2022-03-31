@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "main": "dist/dianomi-react-contextfeed.cjs.js",
   "typings": "dist/index.d.ts",
@@ -10,23 +10,11 @@
   "engines": {
     "node": ">=10"
   },
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
-  },
+  "scripts": {},
   "peerDependencies": {
     "react": ">=16"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
+  "husky": {},
   "prettier": {
     "printWidth": 80,
     "semi": true,
@@ -36,38 +24,26 @@
   "name": "@dianomi/react-contextfeed",
   "author": "Dianomi",
   "module": "dist/dianomi-react-contextfeed.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/react-contextfeed.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/react-contextfeed.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^7.0.8",
+    "@types/jest": "^27.4.1",
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",
     "husky": "^7.0.4",
+    "jest": "^27.5.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "size-limit": "^7.0.8",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.3.1",
     "typescript": "^4.6.3"
   },
   "dependencies": {
     "tiny-invariant": "^1.2.0"
   },
-  "description": "Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.",
+  "description": "A simple React component to get Dianomi contextfeed in react apps",
   "directories": {
     "example": "example",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DianomiLtd/dianomi-contextfeed-packages/packages/react-contextfeed.git"
+    "url": "https://github.com/DianomiLtd/dianomi-contextfeed-packages/tree/main/packages/react-contextfeed"
   }
 }
