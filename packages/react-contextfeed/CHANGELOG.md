@@ -1,5 +1,11 @@
 # @dianomi/react-contextfeed
 
+## 0.1.5
+
+### Patch Changes
+
+- fixed readme, removed some deps
+
 ## 0.1.4
 
 ### Patch Changes

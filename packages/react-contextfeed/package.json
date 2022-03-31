@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/dianomi-react-contextfeed.cjs.js",
   "typings": "dist/index.d.ts",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DianomiLtd/dianomi-contextfeed-packages/tree/main/packages/react-contextfeed"
+    "url": "https://github.com/DianomiLtd/js-sdks/tree/main/packages/react-contextfeed"
   }
 }

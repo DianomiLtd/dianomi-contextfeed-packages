@@ -8,7 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "manypkg check && preconstruct dev",
     "manypkg:fix": "manypkg fix",
-    "build": "preconstruct build"
+    "build": "preconstruct build",
+    "changeset:add": "changeset add",
+    "changeset:version": "changeset version",
+    "deploy": "preconstruct build && changeset publish"
   },
   "author": "",
   "license": "ISC",
