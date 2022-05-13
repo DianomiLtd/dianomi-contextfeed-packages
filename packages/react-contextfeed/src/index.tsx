@@ -6,6 +6,7 @@ type Props = {
 };
 
 export const DianomiContextFeed = ({ id }: Props) => {
+
   React.useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://www.dianomi.com/js/contextfeed.js';
