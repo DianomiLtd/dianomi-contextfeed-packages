@@ -1,5 +1,17 @@
 # @dianomi/react-contextfeed
 
+## 0.1.8
+
+### Patch Changes
+
+- Remove async from contextfeed
+
+## 0.1.7
+
+### Patch Changes
+
+- testing
+
 ## 0.1.6
 
 ### Patch Changes
