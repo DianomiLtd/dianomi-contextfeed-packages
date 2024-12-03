@@ -1,5 +1,11 @@
 # @dianomi/react-contextfeed
 
+## 0.2.2
+
+### Patch Changes
+
+- slightly better implementation of props.type
+
 ## 0.2.1
 
 ### Patch Changes
