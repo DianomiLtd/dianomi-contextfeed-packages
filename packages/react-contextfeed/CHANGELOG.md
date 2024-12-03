@@ -1,5 +1,17 @@
 # @dianomi/react-contextfeed
 
+## 0.2.1
+
+### Patch Changes
+
+- Added dev handling and apple news
+
+## 0.2.0
+
+### Minor Changes
+
+- Fix exporting types
+
 ## 0.1.8
 
 ### Patch Changes

@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "workspaces": [
-    "packages/react-contextfeed"
+    "packages/*"
   ],
   "dependencies": {
     "@babel/core": "^7.17.8",
@@ -26,11 +26,13 @@
     "@babel/preset-typescript": "^7.16.7",
     "@changesets/cli": "^2.22.0",
     "@manypkg/cli": "^0.19.1",
-    "@preconstruct/cli": "^2.1.5"
+    "@preconstruct/cli": "^2.8.10",
+    "typescript": "^5.4.0"
   },
   "preconstruct": {
     "packages": [
-      "packages/react-contextfeed"
-    ]
+      "packages/*"
+    ],
+    "exports": true
   }
 }
