@@ -1,7 +1,7 @@
 import * as React from 'react';
 import invariant from 'tiny-invariant';
 
-export interface Props
+export interface DianomiContextfeedProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, 'id'> {
   /**
    * @required
@@ -13,7 +13,7 @@ export interface Props
   type?: 'standard' | 'appleNews';
 }
 
-export const DianomiContextFeed = (props: Props) => {
+export const DianomiContextFeed = (props: DianomiContextfeedProps) => {
   const type = props.type || 'standard';
   React.useEffect(() => {
     const script = document.createElement('script');
@@ -23,6 +23,7 @@ export const DianomiContextFeed = (props: Props) => {
       type === 'appleNews' ? '/apple-news' : ''
     }.js`;
     script.src = src;
+    script.type = 'module';
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
@@ -33,8 +34,8 @@ export const DianomiContextFeed = (props: Props) => {
   return (
     <div
       key={props.id + type}
-      className="dianomi_context"
       {...props}
+      className="dianomi_context"
       id={props.id.toString()}
       data-dianomi-context-id={props.id}
     />

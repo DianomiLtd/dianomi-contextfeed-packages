@@ -1,5 +1,11 @@
 # @dianomi/react-contextfeed
 
+## 0.2.3
+
+### Patch Changes
+
+- type module
+
 ## 0.2.2
 
 ### Patch Changes
